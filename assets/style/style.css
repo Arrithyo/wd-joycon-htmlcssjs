@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    display: flex;
+    margin-top: 100px;
+    flex-direction: column;
+    align-items: center;
+}
+
+#text {
+    background-color: grey;
+    width: 100px;
+    height: 50px;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.joy-con {
+    margin: 80px;
+    display: flex;
+    gap: 8px;
+}
+
+.arah {
+    background-color: aquamarine;
+    border-radius: 10%;
+    padding: 40px;
+}
+
+.up {
+    display: flex;
+    justify-content: center;
+}
+
+.up button {
+    width: 50px;
+    height: 50px;
+    border-radius: 30%;
+    box-shadow: 5px 3px 16px -3px rgba(0,0,0,0.72);
+    -webkit-box-shadow: 5px 3px 16px -3px rgba(0,0,0,0.72);
+    -moz-box-shadow: 5px 3px 16px -3px rgba(0,0,0,0.72);
+}
+
+.left-right {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-right button {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    width: 50px;
+    height: 50px;
+    border-radius: 30%;
+    box-shadow: 5px 3px 16px -3px rgba(0,0,0,0.72);
+    -webkit-box-shadow: 5px 3px 16px -3px rgba(0,0,0,0.72);
+    -moz-box-shadow: 5px 3px 16px -3px rgba(0,0,0,0.72);
+}
+
+.down {
+    display: flex;
+    justify-content: center;
+}
+
+.down button {
+    width: 50px;
+    height: 50px;
+    border-radius: 30%;
+    box-shadow: 5px 3px 16px -3px rgba(0,0,0,0.72);
+    -webkit-box-shadow: 5px 3px 16px -3px rgba(0,0,0,0.72);
+    -moz-box-shadow: 5px 3px 16px -3px rgba(0,0,0,0.72);
+}
+
+.action {
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 296px;
+    border-radius: 10%;
+    box-shadow: 4px 4px 16px -3px rgba(0,0,0,0.72);
+    -webkit-box-shadow: 4px 4px 16px -3px rgba(0,0,0,0.72);
+    -moz-box-shadow: 4px 4px 16px -3px rgba(0,0,0,0.72);
+}
+
+.action-btn {
+    align-items: center;
+}
+
+.action-btn button {
+    margin: 8px;
+    width: 50px;
+    height: 50px;
+    border-radius: 30%;
+    background-color: pink;
+    box-shadow: 5px 3px 16px -3px rgba(0,0,0,0.72);
+    -webkit-box-shadow: 5px 3px 16px -3px rgba(0,0,0,0.72);
+    -moz-box-shadow: 5px 3px 16px -3px rgba(0,0,0,0.72);
+}
+
+/* hover */
+.arah button:hover {
+    background-color: rgb(173, 170, 170);
+    cursor: pointer;
+}
+
+.action-btn button:hover {
+    background-color: rgb(202, 130, 141);
+    cursor: pointer;
+}
+

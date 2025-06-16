@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JoyCon</title>
+    <link rel="stylesheet" href="assets/style/style.css">
 </head>
 <body>
     <!-- buat komponen yang menggambarkan controller @MUTAMA -->
@@ -43,5 +44,36 @@
     <!--  -->
     <!-- kamu boleh menambahkan sprite di samping textscreen yang sudah ada @POINPLUS -->
     <!-- di ujung kanan bawah, tambahkan informasi NIM, nama, dan link Github @UTAMA -->
+
+    <div class="container">
+        <div id="text">
+            <h1></h1>
+        </div>
+
+        <div class="joy-con">
+            <div class="arah">
+                <div class="up">
+                    <button id="btn-up" onclick="up()">up</button>
+                </div>
+                <div class="left-right">
+                    <button id="btn-left" onclick="left()">left</button>
+                    <button id="btn-right" onclick="right()">right</button>
+                </div>
+                <div class="down">
+                    <button id="btn-down" onclick="down()">down</button>
+                </div>
+            </div>
+            
+            <div class="action">
+                <div class="action-btn">
+                    <button id="btn-b" onclick="b()">B</button>
+                    <button id="btn-a" onclick="a()">A</button>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/main.js"></script>
 </body>
 </html>
